@@ -1,0 +1,193 @@
+/*importando las fuentes*/
+
+@font-face 
+{
+    font-family: "Lato";
+    src: url(./Fonts/Lato/Lato-LightItalic.ttf);
+}
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+/*Utilidades*/
+
+img 
+{
+    max-width: 100%;
+
+}
+
+.contenedor
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.containerheader
+{
+    height: 100vh;
+    background-color: #096266;
+    background: linear-gradient( 90deg, #0f484a 0%, #008080 100% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containmain
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 8rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.item h1
+{
+    font-family: "Lato";
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: #739899;
+}
+
+.item p
+{
+    font-size: 16px;
+    color: #d0b9ba;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 2rem 0;
+
+}
+
+.item button
+{
+    width: 10rem;
+    height: 3rem;
+    background: transparent;
+    font-family: "Lato";
+    text-transform: uppercase;
+    color: #739899;
+    border-radius: 50px;
+    border: 2px solid #d0b9ba;
+    cursor: pointer;
+}
+
+.item:nth-of-type(2)
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navegador */
+
+nav 
+{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    padding: .5rem 0;
+}
+
+nav .contenedor
+{
+    display: flex;
+}
+
+nav .containerleft
+{
+    display: inherit;
+    align-items: center;
+}
+
+.containerLinks
+{
+    margin-left: 3rem;
+}
+
+.containerLinks a
+{
+    margin-right: 4rem;
+    color: #739899;
+    font-family: "Lato";
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.containerright
+{
+    display: inherit;
+    align-items: center;
+}
+
+.containerright button
+{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #d0b9ba;
+    font-family: "Lato";
+    font-size: 1.2rem;
+    color: #d0b9ba;
+    outline: no;
+    cursor: pointer;
+}
+
+.containerleft img
+{
+    width: 100px;
+}

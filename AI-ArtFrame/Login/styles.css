@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #096266;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  height: 500px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-panel .logo {
+  margin-bottom: 20px;
+}
+
+.left-panel .logo img {
+  width: 120px;
+  height: auto;
+}
+
+.form-content {
+  text-align: center;
+  width: 100%;
+}
+
+.form-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.social-buttons .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.social-buttons .facebook {
+  background: #4267B2;
+}
+
+.social-buttons .google {
+  background: #DB4437;
+}
+
+.social-buttons .linkedin {
+  background: #0A66C2;
+}
+
+.or {
+  margin: 15px 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.input-group {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #096266;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #45A049;
+}
+
+.right-panel {
+  flex: 1;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.right-panel img {
+  width: 120%;
+  height: 65%;
+  object-fit: cover;
+}
+
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background-color:#096266;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.back-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.back-button:hover {
+  background-color: #45A049;
+}
